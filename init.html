@@ -1,0 +1,101 @@
+<html style="color: rgb(0, 0, 0);"> 
+    <head> </head>
+    <style>
+    div{
+        margin: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+#topright {
+    position: absolute;
+    margin: 50px;
+    right: 0;
+    top: 0;
+}
+
+    </style>
+    <body style="background: linear-gradient(#00ffc855, #ffff006a);"> 
+        <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+        <div bv  style="font-size: 3em;">
+            Привет, меня зовут Кирилл. <br> Это мой конспект по HTML!
+        </div>
+        <div id="topright">
+            <a href="https://developer.mozilla.org/ru/docs/Web/HTML" style="text-decoration: none">
+                <img src="C:\Users\MY PC\Desktop\html.png" width="100" height="100">
+                <p style="color: black ;">Документация</p>
+            </a>
+        </div>
+        <div>
+            <p>
+                &lt;p&gt; — абзац текста<br>
+&lt;a&gt; — ссылка: &lt;a href="url"&gt;текст ссылки&lt;/a&gt;<br>
+&lt;img&gt; — картинка: &lt;img src="url" /&gt;<br>
+&lt;div&gt; — блочный контейнер (содержимое как будто запаковывается в «коробку», по умолчанию во всю ширину экрана)<br>
+&lt;span&gt; — строчный контейнер (нужен для добавления форматирования тексту:  «коробки» вокруг нет)<br>
+h1,h2, ... h6 — заголовки<br>
+&lt;br&gt; — разрыв строки<br>
+<br>
+У тэгов бывают атрибуты (они пишутся после имени тэга в форме аттрибут="значение"). Пару атрибутов выше вы уже видели: у тэгов a, img. Если тэг парный, атрибуты указываются только в открывающем тэге, но не в закрывающем.<br>
+Два главных атрибута, которые есть у каждого тэга, нужны для того, чтобы было возможно сослаться на конкретный тэг или группу тэгов.<br>
+<br>
+Атрибут id указывает уникальное имя тэга (оно не должно повторяться нигде на странице):<br>
+&lt;h3 id="html_basics"&gt;Основы html&lt;/h3&gt;<br>
+<br>
+Атрибут class указывает, что тэг принадлежит конкретной группе. Например,<br>
+&lt;span class="first-letter"&gt;Э&lt;/span&gt;то &lt;span class="first-letter"&gt;З&lt;/span&gt;аглавные &lt;span class="first-letter"&gt;Б&lt;/span&gt;уквы<br>
+Тут три буквы «завёрнуты» в тэги span (строчный контейнер), и каждому из этих тэгов добавлен класс first-letter (да, названия через дефис разрешены). Теперь мы можем обращаться к этим трём буквам как к группе. Например, для того чтобы стилизовать (см. css).<br>
+<br>
+———<br>
+<br>
+Вообще страница состоит из четырёх основных типов элементов: <br>
+* html — основное содержимое страницы и базовая структура.<br>
+* css — стили. Т.е. оформление страницы (как элементы страницы расположены друг относительно друга, с какими отступами, какого цвета, какого размера итд)<br>
+* js — скрипты, т.е. поведение страницы<br>
+* images, fonts — картинки, шрифты итп<br>
+<br>
+Браузер при первом запросе к серверу получает html-документ. Находит в нём ссылки на стили, скрипты, картинки итп. И делает новые запросы. В итоге браузер склеивает всё в единую страницу.<br>
+</p>
+        </div>
+        </style>
+        <p style="color:rgb(255, 0, 0); size: 2em; border: 2px red solid;"> 
+            <img src="C:\Users\MY PC\Desktop\!!!.png">
+            Этот сайт ещё не доработан, но я продолжаю вести данный конспект.
+        </p>
+    </body>
+</html>
